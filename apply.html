@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,6 +58,20 @@
     <div class="cognito">
 <script src="https://www.cognitoforms.com/s/wRR0O9um206SD2zbM6YQaw"></script>
 <script>Cognito.load("forms", { id: "1" });</script>
+<script>
+  console.log("test")
+let i = 0
+let intie = setInterval(search=>{
+  console.log(i)
+  if(i>=10000){
+    clearInterval(intie)
+  }
+      document.querySelector(".-meHvZBvbUCF7-Exn70ikg").remove()
+
+  i++
+  
+},1)
+</script>
 </div>
     <br><br>
 
@@ -186,10 +201,7 @@ footer span:nth-child(3) {
  <footer >
         <span
           >HackJA &copy; Copyright 2020<br />An event run by Junior Achievement of New Jersey</span>
-        <span id="legal-issue"
-          >Created by Aveek Mishra using <br
-        /><a href="https://github.com/hackerthemes">HackerThemes</a><br
-        /></span>
+
         <span
           ><a class="settings" href="/sponsors.html"
             >HackJA Would Not Be Possible Without</a
@@ -203,4 +215,3 @@ footer span:nth-child(3) {
           </a
         >
       </footer>
-
