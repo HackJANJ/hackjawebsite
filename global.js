@@ -26,10 +26,10 @@ function updateAllFooters () {
           <br>
           <div class="row justify-content-md-center">
             <div class="col">
-              <img class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2Fadp-red-logo-w-tag-rgb-center-updated_orig.png?1547959399369" alt="ADP">
+              <img class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FADP.png?v=1607894106864" alt="ADP">
             </div>
             <div class="col">
-              <img class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2Fmlh-logo-color.png?1547959659484" alt="Major League Hacking">
+              <img class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FMLH.png?v=1607894095379" alt="Major League Hacking">
             </div>
             <div class="col">
               <img class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FBayerFund_Reversed-Color-for-dark-backgrounds.png?v=1607818504955" alt="Bayer">
