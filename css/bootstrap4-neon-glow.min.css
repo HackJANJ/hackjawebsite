@@ -4041,7 +4041,7 @@ input[type="button"].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #32334a;
+  background-color: #282a38;;
   background-clip: border-box;
   border: 1px solid #151623;
   border-radius: 6px; }
@@ -4082,7 +4082,7 @@ input[type="button"].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   color: inherit;
-  background-color: #1e2037;
+  background-color: #32334a;
   border-bottom: 1px solid #151623; }
   .card-header:first-child {
     border-radius: calc(6px - 1px) calc(6px - 1px) 0 0; }
@@ -4091,7 +4091,7 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #1e2037;
+  background-color: #32334a;
   border-top: 1px solid #151623; }
   .card-footer:last-child {
     border-radius: 0 0 calc(6px - 1px) calc(6px - 1px); }

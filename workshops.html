@@ -29,6 +29,11 @@
 
   gtag('config', 'G-LY48XWHZZK');
 </script>
+    
+  <!-- Custom script & css that inserts footers -->
+  <script defer src="./global.js"></script>
+  <link rel="stylesheet" href="global.css">
+
   </head>
   <body>
         <a id="link"></a>
@@ -52,7 +57,7 @@
               <a href="apply.html" class="pl-md-0 p-3 text-light">Register</a>
               <a href="agenda.html" class="pl-md-0 p-3 text-light">Agenda</a>
               <a href="workshops.html" class="pl-md-0 p-3 text-light">Workshops</a>
-              <a href="sponsors.html" class="pl-md-0 p-3 text-light">Sponsors</a>
+               
               <a href="faq.html" class="pl-md-0 p-3 text-light">FAQ</a>
                <a href="mentorfaq.html" class="pl-md-0 p-3 text-light">Mentor FAQ</a>
                <a href="about.html" class="p-3 text-decoration-none text-light">Our Team</a>
@@ -70,44 +75,53 @@
             <div class="lead mb-3 text-mono text-success">January 2021</div>
             <div class="text-mono">
             </div>
-            <a href="#link1" class="btn btn-shadow text-mono btn-lg btn-outline-success"> View Workshops</a>
             <div class="text-darkgrey text-mono my-2">​Junior Achievement Education Center Edison NJ</div>
           </div>
         </div>
       </div>
     </div>
-    <a id="link1"></a>
-    <div class="jumbotron">
-      <h1 class="display-3">Introduction to Pytho<span class="vim-caret">n</span></h1>
-      <p class="lead">
-        This is a beginner’s workshop for students who may have limited but some knowledge about the basics of coding. We will be going through the basics of python, its use cases, and practice exercises along the way. 
-      </p>
-      <a href="#link2" class="btn btn-shadow text-mono btn-success">Next Workshop</a>
+
+
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1 class="display-3">Introduction to Python</h1>
+        <p class="lead">
+          This is a beginner’s workshop for students who may have limited but some knowledge about the basics of coding. We will be going through the basics of python, its use cases, and practice exercises along the way. 
+        </p>
+      </div>
+      <a id="link2"></a>
+      <div class="jumbotron">
+        <h1 class="display-3">Introduction to Java<h1>
+        <p class="lead">
+        Java is one of the most popular programming languages in the world, currently running on over 7 billion devices and with a huge variety of use cases ranging from Android app development to self-driving cars. This workshop offers a wide range of beginner to intermediate Java concepts, from printing “Hello World!” to understanding classes and access modifiers.
+        </p>
+      </div>
+      <a id="link3"></a>
+      <div class="jumbotron">
+        <h1 class="display-3">Introduction to C++</h1>
+        <p class="lead">
+          This workshop will give beginners insight into C++ programming and programming in general. The workshop contains several small practice problems and explanations of various basic programming skills. It covers topics from input and output all the way to classes and structs to give students a full overview of C++ so they can begin using it in small applications.   
+        </p>
+      </div>
+      <a id="link4"></a>
+      <div class="jumbotron">
+        <h1 class="display-3">Introduction to Earsketch</h1>
+        <p class="lead">
+          This is a beginner workshop for students who have limited coding knowledge. Students will explore how to use Earsketch, an education program created with the intent of furthering knowledge of Python and Javascript and by creating music.  
+        </p>
+      </div>
+
     </div>
-    <a id="link2"></a>
-    <div class="jumbotron">
-      <h1 class="display-3">Introduction to Jav<span class="vim-caret">a</span></h1>
-      <p class="lead">
-      Java is one of the most popular programming languages in the world, currently running on over 7 billion devices and with a huge variety of use cases ranging from Android app development to self-driving cars. This workshop offers a wide range of beginner to intermediate Java concepts, from printing “Hello World!” to understanding classes and access modifiers.
-      </p>
-      <a href="#link3" class="btn btn-shadow text-mono btn-success">Next Workshop</a>
-    </div>
-    <a id="link3"></a>
-    <div class="jumbotron">
-      <h1 class="display-3">Introduction to C+<span class="vim-caret">+</span></h1>
-      <p class="lead">
-        This workshop will give beginners insight into C++ programming and programming in general. The workshop contains several small practice problems and explanations of various basic programming skills. It covers topics from input and output all the way to classes and structs to give students a full overview of C++ so they can begin using it in small applications.   
-      </p>
-      <a href="#link4" class="btn btn-shadow text-mono btn-success">Next Workshop</a>
-    </div>
-    <a id="link4"></a>
-    <div class="jumbotron">
-      <h1 class="display-3">Introduction to Earsketc<span class="vim-caret">h</span></h1>
-      <p class="lead">
-        This is a beginner workshop for students who have limited coding knowledge. Students will explore how to use Earsketch, an education program created with the intent of furthering knowledge of Python and Javascript and by creating music.  
-      </p>
-      <a href="#link" class="btn btn-shadow text-mono btn-success">Back to top</a>
-    </div>
+
+
+  <footer class="update-this-footer" style="width:100%">
+    <!-- Gets auto-updated in global.js -->
+  </footer>
+
+
+
     <head>
       <meta charset="utf-8">
       <!--  This file has been downloaded from https://bootdey.com  -->
@@ -179,6 +193,9 @@
         }
       </style>
     </head>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -233,20 +250,3 @@ footer span:nth-child(3) {
   text-align: right;
 }
 </style>
- <footer >
-        <span
-          >HackJA &copy; Copyright 2020<br />An event run by Junior Achievement of New Jersey</span>
-
-        <span
-          ><a class="settings" href="/sponsors.html"
-            >HackJA Would Not Be Possible Without</a
-          ><br /><a
-            id="connection"
-             href="/sponsors.html" 
-          
-            style="color:rgba(65,255,141,.8);"
-            >Our Amazing Sponsors</span
-          >
-          </a
-        >
-      </footer>

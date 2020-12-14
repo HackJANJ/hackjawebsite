@@ -29,7 +29,21 @@
 
   gtag('config', 'G-LY48XWHZZK');
 </script>
+
+
+  <!-- Custom script & css that inserts footers -->
+  <script defer src="./global.js"></script>
+  <link rel="stylesheet" href="global.css">
+
+
   </head>
+
+
+
+
+
+
+
   <body>
             <a id="link"></a>
 
@@ -51,7 +65,7 @@
               <a href="apply.html" class="pl-md-0 p-3 text-light">Register</a>
               <a href="agenda.html" class="pl-md-0 p-3 text-light">Agenda</a>
               <a href="workshops.html" class="pl-md-0 p-3 text-light">Workshops</a>
-              <a href="sponsors.html" class="pl-md-0 p-3 text-light">Sponsors</a>
+               
               <a href="faq.html" class="pl-md-0 p-3 text-light">FAQ</a>
                <a href="mentorfaq.html" class="pl-md-0 p-3 text-light">Mentor FAQ</a>
                <a href="about.html" class="p-3 text-decoration-none text-light">Our Team</a>
@@ -70,53 +84,56 @@
             <div class="lead mb-3 text-mono text-success">January 2021</div>
             <div class="text-mono">
             </div>
-            <a href="#link1" class="btn btn-shadow text-mono btn-lg btn-outline-success"> View Agenda</a>
-            <a href="workshops.html" class="btn btn-shadow text-mono btn-lg btn-outline-success"> View Workshops</a>
             <div class="text-darkgrey text-mono my-2">​SUBJECT TO CHANGE</div>
             <div class="text-darkgrey text-mono my-2">​Junior Achievement Education Center, Edison NJ</div>
           </div>
         </div>
       </div>
     </div>
-    <a id="link1"></a>
-    <div class="jumbotron" align="center">
-      <h1 align="center" class="display-3">Friday January 8, 202<span class="vim-caret">1</span></h1>
-      
-      <p align="center" class="lead"><span style="font-weight:bold">4:15 - 4:30</span> - Welcome remarks and main challenge reveals
-        <br>
-       <span style="font-weight:bold">5:00 - 6:00</span> - Workshop 1
-        <br>
-        <span style="font-weight:bold">6:00 - 7:00</span> - Workshop 2
-        <br>
-        <span style="font-weight:bold">7:00 - 8:00</span> - Workshop 3
-        <br>
-        <span style="font-weight:bold">8:00 - 9:00</span> - Workshop 4
-        <br>
-        <br>
-        For everyone else, they can just start doing the challenges at this time
-        <br>
-        <br>
-        <span style="font-weight:bold">9:00 - 9:30</span> - Mini-challenge slot 1
-        <br>
-        <span style="font-weight:bold">9:30 - 10:00</span> - Mini-challenge slot 2
-        <br>
-        <br>
-      </p>
-      <a href="#link2" class="btn btn-shadow text-mono btn-success">Next Day</a>
-    </div>
-    <a id="link2"></a>
-    <div class="jumbotron" align="center">
-      <h1 align="center" class="display-3">Saturday January 9, 202<span class="vim-caret">1</span></h1>
-      <p align="center" class="lead">
-        <span style="font-weight:bold">12:30 pm</span> - Final Submissions
-        <br>
-        <span style="font-weight:bold">1:00 PM </span> - Showcase Begins
-        <br>
-        <span style="font-weight:bold">4:00 pm</span> - Event Ends
-      </p>
-            <a href="#link" class="btn btn-shadow text-mono btn-success">Back to Top</a>
+
+
+    <div class="container">
+
+      <div class="jumbotron" align="center">
+        <h1 align="center" class="display-3">Friday January 8, 2021</h1>
+        
+        <p align="center" class="lead"><span style="font-weight:bold">4:15 - 4:30</span> - Welcome remarks and main challenge reveals
+          <br>
+          <!-- TODO: Turn these times into tables -->
+          <!-- https://getbootstrap.com/docs/4.5/content/tables/ -->
+        <span style="font-weight:bold">5:00 - 6:00</span> - Workshop 1
+          <br>
+          <span style="font-weight:bold">6:00 - 7:00</span> - Workshop 2
+          <br>
+          <span style="font-weight:bold">7:00 - 8:00</span> - Workshop 3
+          <br>
+          <span style="font-weight:bold">8:00 - 9:00</span> - Workshop 4
+          <br>
+          <br>
+          For everyone else, they can just start doing the challenges at this time
+          <br>
+          <br>
+          <span style="font-weight:bold">9:00 - 9:30</span> - Mini-challenge slot 1
+          <br>
+          <span style="font-weight:bold">9:30 - 10:00</span> - Mini-challenge slot 2
+        </p>
+      </div>
+
+
+      <div class="jumbotron" align="center">
+        <h1 align="center" class="display-3">Saturday January 9, 2021</h1>
+        <p align="center" class="lead">
+          <span style="font-weight:bold">12:30 pm</span> - Final Submissions
+          <br>
+          <span style="font-weight:bold">1:00 PM </span> - Showcase Begins
+          <br>
+          <span style="font-weight:bold">4:00 pm</span> - Event Ends
+        </p>
+      </div>
 
     </div>
+
+
     <head>
       <meta charset="utf-8">
       <!--  This file has been downloaded from https://bootdey.com  -->
@@ -188,6 +205,13 @@
         }
       </style>
     </head>
+
+
+    <footer class="update-this-footer" style="width:100%">
+      <!-- Gets auto-updated in global.js -->
+    </footer>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -243,20 +267,3 @@ footer span:nth-child(3) {
   text-align: right;
 }
 </style>
- <footer >
-        <span
-          >HackJA &copy; Copyright 2020<br />An event run by Junior Achievement of New Jersey</span>
-
-        <span
-          ><a class="settings" href="/sponsors.html"
-            >HackJA Would Not Be Possible Without</a
-          ><br /><a
-            id="connection"
-             href="/sponsors.html" 
-          
-            style="color:rgba(65,255,141,.8);"
-            >Our Amazing Sponsors</span
-          >
-          </a
-        >
-      </footer>

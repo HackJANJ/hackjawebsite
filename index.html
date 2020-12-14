@@ -37,8 +37,20 @@
 
   gtag('config', 'G-LY48XWHZZK');
 </script>
+
+  <!-- And then the custom js & css -->
+  <link rel="stylesheet" href="global.css">
     
+  <!-- Custom script & css that inserts footers -->
+  <script defer src="./global.js"></script>
+  <link rel="stylesheet" href="global.css">
+
   </head>
+
+
+
+
+
   <body>
     <div class="alert alert-dismissible fade show alert-success" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -58,7 +70,6 @@
               <a href="apply.html" class="pl-md-0 p-3 text-light">Register</a>
               <a href="agenda.html" class="pl-md-0 p-3 text-light">Agenda</a>
               <a href="workshops.html" class="pl-md-0 p-3 text-light">Workshops</a>
-              <a href="sponsors.html" class="pl-md-0 p-3 text-light">Sponsors</a>
               <a href="faq.html" class="pl-md-0 p-3 text-light">FAQ</a>
                <a href="mentorfaq.html" class="pl-md-0 p-3 text-light">Mentor FAQ</a>
                <a href="about.html" class="p-3 text-decoration-none text-light">Our Team</a>
@@ -189,60 +200,85 @@
         <div class="container">
       <div class="card text-center">
  
-   <div class="card-header">
+        <div class="card-header">
+          <p class="my-2 custom-card-title">
+
           Welcome to HackJA!
+          </p>
         </div>
-        <br>
-           <div class="card-body">
-        <p class = "card-text">
-  HackJA is a twenty-four round-the-clock innovative program that tests students’ IT and computer science skills. A two-prong competition planned by high school students for high school students, HackJA challenges participants to work in teams to compete in various computer science challenges. The presence of corporate mentors in this exciting environment provides students the guidance they need to perfect their projects while imagining their future in a STEM career. Web designers, software developers, and business oriented students can all team up to participate regardless of their computer science skill level. Students will also attend relevant workshops and receive mentorship from corporate and college mentors. HackJA is an exciting opportunity for STEM oriented students to enter with an idea and leave with a tangible project to work with.
-        </p>
+        <div class="card-body">
+          <p class="custom-card-text" style="text-align: left;">
+  HackJA is a twenty-four round-the-clock innovative program that tests
+  students’ IT and computer science skills. A two-prong competition 
+  planned by high school students for high school students, HackJA 
+  challenges participants to work in teams to compete in various computer 
+  science challenges. The presence of corporate mentors in this exciting 
+  environment provides students the guidance they need to perfect their 
+  projects while imagining their future in a STEM career. Web designers, 
+  software developers, and business oriented students can all team up to 
+  participate regardless of their computer science skill level. Students 
+  will also attend relevant workshops and receive mentorship from 
+  corporate and college mentors. HackJA is an exciting opportunity for 
+  STEM oriented students to enter with an idea and leave with a tangible 
+  project to work with. 
+
+  <br>
+  <br>
+
+  Normally, HackJA is in-person. Because of the Covid-19 pandemic, <b><i><u>this year 
+  will be virtual</u></i></b>. We will provide physical prizes to those who
+  are comftorable, but otherwise everything is online. For more info about the
+  event, take a look around the site.
+          </p>
         </div>
 
         <br>
 
-        <h4 align="center" class="card-title"></h4>
-        <div class="card-footer text-muted">
-          This year, HackJA will be virtual!</div>
       </div>
-      </div>
-    <div class="container py-5">
-      <div class="card text-center">
+
+
+      <div class="card text-center my-5">
  
    <div class="card-header">
-          A time capsule into the pre COVID world...
+     <p class="my-2 custom-card-title">
+        A time capsule into the pre COVID world...
+     </p>
         </div>
-        <br>
-<video id = "sourcevid" controls>
 
+
+        <div class="card-body">
+<video id = "sourcevid" controls>
   <source src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2Fy2mate.com%20-%20HACKJA%202018_1080p.mp4?v=1603162445579" type="video/mp4">
 
 Your browser does not support the video tag.
 
 </video>
-        <br>
+  <p>
+<br>
+    Footage from one of our previous in-person hackathons!
+  </p>
 
-        <h4 align="center" class="card-title"></h4>
-        <div class="card-footer text-muted">
-         Footage from one of our previous in person hackathons! </div>
-      </div>
       </div>
     </div>
-    <div class="container py-5">
-      <div class="card text-center">
+
+      <div class="card text-center my-5">
         <div class="card-header">
-          Join our next Hackathon
+          <p class="custom-card-title my-2">
+            Join!
+          </p>
         </div>
         <div class="card-body">
-          <h4 class="card-title">Register for HackJA!</h4>
-          <p class="card-text">Prior coding knowledge is not needed for this event. There will be many learning experiences avaliable during our virtual workshops. Whether you're a beginner or a veteran, you will come out with much more experience than you had when you came in, and have fun while you're at it!</p>
-          <a href="apply.html" class="btn btn-success">Click me to Register</a>
+          <p class="card-text custom-card-text">Prior coding knowledge is not needed for this event. There will be many learning experiences avaliable during our virtual workshops. Whether you're a beginner or a veteran, you will come out with much more experience than you had when you came in, and have fun while you're at it!</p>
+          <a href="apply.html" class="btn btn-success">Take me to registration!</a>
         </div>
-        <div class="card-footer text-muted">
-          January 8th 2021 </div>
-      </div>
     </div>
-    </div>
+
+
+    <footer class="update-this-footer" style="width:100%">
+      <!-- Gets auto-updated in global.js -->
+    </footer>
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -281,7 +317,7 @@ function uuidv4() {
 }
   
 typeString("HackJA 2021","type1",100)
- typeString(`<img src = ".\/Assets\/promo.png">"`,"type2",30)
+ typeString(`<img src = ".\/Assets\/promo.png">`,"type2",30)
   
   if(localStorage.getItem("displayedregisteralert")){
   console.log("alert already displayed")
@@ -328,20 +364,3 @@ footer span:nth-child(3) {
   text-align: right;
 }
 </style>
- <footer >
-        <span
-          >HackJA &copy; Copyright 2020<br />An event run by Junior Achievement of New Jersey</span>
-
-        <span
-          ><a class="settings" href="/sponsors.html"
-            >HackJA Would Not Be Possible Without</a
-          ><br /><a
-            id="connection"
-             href="/sponsors.html" 
-          
-            style="color:rgba(65,255,141,.8);"
-            >Our Amazing Sponsors</span
-          >
-          </a
-        >
-      </footer>
