@@ -31,6 +31,12 @@ function updateAllFooters () {
             <div class="col">
               <img class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FBayerFund_Reversed-Color-for-dark-backgrounds.png?v=1607818504955" alt="Bayer">
             </div>
+      <div class="col">
+              <img class="footer-sponsor-img" src="https://launchx.com/assets/images/launchXLogo.png" alt="LaunchX">
+            </div>
+      <div class="col">
+              <img class="footer-sponsor-img" src="https://static.wixstatic.com/media/c42fea_d1fbddac9a524f16b3d4456d639b444a~mv2.png/v1/fill/w_750,h_375,al_c/c42fea_d1fbddac9a524f16b3d4456d639b444a~mv2.png" alt="EchoAR">
+            </div>
           </div>  
         </div>
       </div>
