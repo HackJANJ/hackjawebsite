@@ -18,7 +18,7 @@ function updateAllFooters () {
         <div class="card-header">
             <br>
               <h1 class="lead text-mono text-success my-2">
-                HackJA would not be possible without our <b><i>amazing</i></b> sponsors.
+                <b><i>Thank you</i></b> to our sponsors:
               </h1>
             <br>
 
@@ -40,7 +40,7 @@ function updateAllFooters () {
             </div>
 
             <br>
-            <!-- Smaller sponsors -->
+            <!-- Smaller sponsors 
             <div class="row justify-content-md-center">
               <div class="col-4">
                 <img style="transform: translate(-80%, -60%); max-height: 50%" class="footer-sponsor-img" src="https://launchx.com/assets/images/launchXLogo.png" alt="LaunchX">
@@ -49,7 +49,7 @@ function updateAllFooters () {
               <div class="col-4">
                 <img style="max-height: 90%;" class="footer-sponsor-img" src="https://static.wixstatic.com/media/c42fea_9d1970a5afdd47978ba9646a72c6dc1e~mv2.png/v1/fill/w_286,h_104,al_c,q_85,usm_0.66_1.00_0.01/echoAR%20-%20Logo%202020%20-%20Knockout.webp" alt="EchoAR">
               </div>
-            </div>  
+            </div>  -->
         </div>
       </div>
 
