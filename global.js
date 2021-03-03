@@ -35,7 +35,7 @@ function updateAllFooters () {
 
             <div class="row justify-content-md-center">
           <div class="col">
-                <img style = "max-height: 50%;text-align:center;" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/812823487458050070/816745206145089597/output-onlinepngtools.png" alt="EY">
+                <img style = "max-width:90%;position:absolute" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/812823487458050070/816745206145089597/output-onlinepngtools.png" alt="EY">
               </div>
               <div class="col">
                 <img style = "text-align:center;" class="footer-sponsor-img" src="imgs/vz_interlaced.png" alt="Verizon">
