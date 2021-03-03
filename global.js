@@ -26,19 +26,19 @@ function updateAllFooters () {
             <!-- Premium sponsors -->
             <div class="row justify-content-md-center">
               <div class="col">
-                <img style="max-width:80%" class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FADP.png?v=1607894106864" alt="ADP">
+                <img style="max-width:80%;text-align:center;" class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FADP.png?v=1607894106864" alt="ADP">
               </div>
               <div class="col">
-                <img style="max-width:110%" class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FBayerFund_Reversed-Color-for-dark-backgrounds.png?v=1607818504955" alt="Bayer">
+                <img style="max-width:110%;text-align:center;" class="footer-sponsor-img" src="https://cdn.glitch.com/9997fac9-1a66-40ea-9959-2e849e187dcf%2FBayerFund_Reversed-Color-for-dark-backgrounds.png?v=1607818504955" alt="Bayer">
               </div>
             </div>  
 
             <div class="row justify-content-md-center">
           <div class="col">
-                <img style = "max-height: 50%" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/812823487458050070/816745206145089597/output-onlinepngtools.png" alt="EY">
+                <img style = "max-height: 50%;text-align:center;" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/812823487458050070/816745206145089597/output-onlinepngtools.png" alt="EY">
               </div>
               <div class="col">
-                <img class="footer-sponsor-img" src="imgs/vz_interlaced.png" alt="Verizon">
+                <img style = "text-align:center;" class="footer-sponsor-img" src="imgs/vz_interlaced.png" alt="Verizon">
               </div>
 
             </div>
