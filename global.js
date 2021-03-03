@@ -34,12 +34,13 @@ function updateAllFooters () {
             </div>  
 
             <div class="row justify-content-md-center">
+          <div class="col">
+                <img style = "max-height: 50%" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/812823487458050070/816745206145089597/output-onlinepngtools.png" alt="EY">
+              </div>
               <div class="col">
                 <img class="footer-sponsor-img" src="imgs/vz_interlaced.png" alt="Verizon">
               </div>
-          <div class="col">
-                <img style = "max-height: 50%" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/801679194790428723/815735653266358362/EY_Logo_Beam_Tag_Stacked_RGB_EN-removebg-preview.png" alt="EY">
-              </div>
+
             </div>
 
             <br>
