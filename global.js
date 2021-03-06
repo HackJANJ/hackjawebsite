@@ -4,7 +4,22 @@ Global.js
 This project is done without any framework but there are still
 useful elements to repeat. This script does that
 */
-
+function updateNavBar(){
+  var navBarsToUpdate = document.getElementsByClassName("update-this-navbar");
+  for (let i=0; i<navBarsToUpdate.length; i++) {
+    console.log("updating navbar")
+    let elem = navBarsToUpdate[i];
+    elem.innerHTML +=`<a href="index" class="p-3 text-decoration-none text-light">Home</a>
+    <a href="apply" class="pl-md-0 p-3 text-light">Register</a>
+    <a href="agenda" class="pl-md-0 p-3 text-light">Agenda</a>
+    <a href="workshops" class="pl-md-0 p-3 text-light">Workshops</a>
+    <a href="faq" class="pl-md-0 p-3 text-light">FAQ</a>
+     <a href="mentorfaq" class="pl-md-0 p-3 text-light">Mentor FAQ</a>
+     <a href="volunteer" class="pl-md-0 p-3 text-light">Volunteers</a>
+     <a href="about" class="p-3 text-decoration-none text-light">Our Team</a>
+    `
+  }
+}
 function updateAllFooters () {
   var footersToUpdate = document.getElementsByClassName("update-this-footer");
 
@@ -81,3 +96,4 @@ function updateAllFooters () {
 }
 
 updateAllFooters();
+updateNavBar();
