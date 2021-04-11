@@ -49,7 +49,7 @@ function updateAllFooters () {
             </div>  
    <div class="row justify-content-md-center">
   <div class="col">
-                <img style = "max-width:90%" class="footer-sponsor-img" src="https://i.ibb.co/RTN3bkH/EY-Logo-Beam-Tag-Stacked-RGB-EN-1-removebg-preview.png" alt="EY">
+                <img style = "max-width:15%" class="footer-sponsor-img" src="https://i.ibb.co/RTN3bkH/EY-Logo-Beam-Tag-Stacked-RGB-EN-1-removebg-preview.png" alt="EY">
               </div>
          
 
