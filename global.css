@@ -6,16 +6,9 @@
   font-size: xx-large;
 }
 
-.footer-sponsor-img {
-  /* Size images */
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+.mainsimg {
+	max-width:100%
+}
+.maincard {
 
-  /* Center images */
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
