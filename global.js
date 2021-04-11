@@ -51,15 +51,14 @@ function updateAllFooters () {
   <div class="col">
                 <img style = "max-width:90%;position:absolute" class="footer-sponsor-img" src="https://i.ibb.co/RTN3bkH/EY-Logo-Beam-Tag-Stacked-RGB-EN-1-removebg-preview.png" alt="EY">
               </div>
-           
+                  <div class="col">
+                <img style = "text-align:center;" class="footer-sponsor-img" src="imgs/vz_interlaced.png" alt="Verizon">
+              </div>
 
             </div>  
             <div class="row justify-content-md-center">
            <div class="col">
                 <img style="max-width:80%;text-align:center;" class="footer-sponsor-img" src="https://cdn.discordapp.com/attachments/801679194790428723/830635523248619530/JJ_Logo-removebg-preview.png" alt="Johnson & Johnson">
-              </div>
-              <div class="col">
-                <img style = "text-align:center;" class="footer-sponsor-img" src="imgs/vz_interlaced.png" alt="Verizon">
               </div>
 
             </div>
