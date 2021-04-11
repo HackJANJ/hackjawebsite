@@ -39,7 +39,7 @@ function updateAllFooters() {
             <br>
             <!-- Premium sponsors -->
             <div class="maincard">
-						<img class = "mainsimg" src = "https://cdn.discordapp.com/attachments/801679194790428723/830649049690013786/output-onlinepngtools_1.png">
+						<img class = "mainsimg" src = "https://cdn.discordapp.com/attachments/801679194790428723/830650817534492672/hackja_logos.png">
             </div>  
 
 
