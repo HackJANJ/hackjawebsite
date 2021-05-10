@@ -18,7 +18,6 @@ function updateNavBar() {
      <a href="volunteer" class="pl-md-0 p-3 text-light">Volunteers</a>
      <a href="stemnight" class="pl-md-0 p-3 text-light">Stem Night</a>
      <a href="codecamp" class="pl-md-0 p-3 text-light">Code Camp</a>
-     <a href="about" class="p-3 text-decoration-none text-light">Our Team</a>
     `
 	}
 }
