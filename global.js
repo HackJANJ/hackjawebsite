@@ -15,8 +15,6 @@ function updateNavBar() {
     <a href="workshops" class="pl-md-0 p-3 text-light">Workshops</a>
     <a href="faq" class="pl-md-0 p-3 text-light">FAQ</a>
      <a href="mentorfaq" class="pl-md-0 p-3 text-light">Mentor FAQ</a>
-     <a href="codecamp" class="pl-md-0 p-3 text-light">Code Camp</a>
-    `
 	}
 }
 function updateAllFooters() {
